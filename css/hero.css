@@ -1,0 +1,71 @@
+html, body{
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	background-color: #f2e4d7;
+	padding: 40px;
+}
+
+header h1{
+	font-size: 90px;
+	color: black;
+}
+
+header img{
+	border-radius: 159px;
+	border: 8px solid #3e4e51;
+
+}
+
+.content{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+
+}
+
+img.big-image{
+	max-width: 100%;
+}
+
+p.caption{
+	font-size: 16px;
+	color: lightgrey;
+	font-style: italic;
+
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: #3e4e51;
+	text-decoration: none;
+}
+
+footer{
+	margin-top: 20px;
+padding: 40px 20px;
+background-color: #2e3030
+
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 0 5px;
+
+}
+/*<header>
+	<img src="http://akns-images.eonline.com/eol_images/Entire_Site/2017411/rs_600x600-170511072804-600.johnny-depp.51117.jpg?downsize=300:*&crop=300:300;left,top">
+	<h1>Johnny Depp</h1>
+</header>*/
