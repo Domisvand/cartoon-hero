@@ -1,27 +1,44 @@
 html, body{
-	font-family: Arial, sans-serif;
+	font-family: Raleway, sans-serif;
 	padding: 0;
 	margin: 0;
+	text-align: 20px;
+	background-color: #f2e4d7;
+	display: inline-block;
+
 }
 
 header{
-	background-color: #f2e4d7;
+	background-color: #cec1b5;
 	padding: 40px;
+	text-align: center;
 }
 
 header h1{
 	font-size: 90px;
 	color: black;
+	text-shadow: 0 4px 20px black;
+	background-color: #cec1b5;
+}
+
+h2{
+	background-color: #cec1b5;
+	border-radius: 20px;
+	padding-left: 20px;
+
 }
 
 header img{
 	border-radius: 159px;
-	border: 8px solid #3e4e51;
+	border: 8px solid #25434f;
+		box-shadow: 0 4px 20px black;
+
+
 
 }
 
 .content{
-	max-width: 900px;
+	max-width: 1800px;
 	margin: 0 auto;
 	padding: 0 20px;
 
@@ -33,7 +50,7 @@ img.big-image{
 
 p.caption{
 	font-size: 16px;
-	color: lightgrey;
+	color: white;
 	font-style: italic;
 
 }
@@ -45,8 +62,12 @@ ul{
 }
 
 a{
-	color: #3e4e51;
+	color: black;
 	text-decoration: none;
+}
+
+footer a{
+	color: white;
 }
 
 footer{
@@ -58,6 +79,7 @@ background-color: #2e3030
 
 footer ul{
 	text-align: center;
+	color: white;
 }
 
 footer ul li{
